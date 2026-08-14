@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="HitscanWeapon" load_steps=3 format=3 uid="uid://belklilljn1vm"]
+
+[ext_resource type="Script" uid="uid://r8ejqsg3jomq" path="res://Assets/Weapons/hitscan_weapon.gd" id="1_k0b4m"]
+[ext_resource type="PackedScene" uid="uid://dld523i5v6kln" path="res://Scenes/Weapons/base_weapon.tscn" id="2_t8n50"]
+
+[resource]
+script = ExtResource("1_k0b4m")
+weapon_name = "Base Hitscan Weapon"
+max_ammo = 50
+weapon_model = ExtResource("2_t8n50")
+weapon_position = Vector3(0.2, -0.3, -0.3)
+metadata/_custom_type_script = "uid://bb6xfjun12atv"
